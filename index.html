@@ -7,21 +7,36 @@
     <script src="javascript.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <h1>Curso HTML-CSS-JS</h1>    
-    <p>Curso enfocado a principiantes del desarrollo web</p>
-    <h3>Habilidades que se aprenderán</h3>
-    <ul>
-        <li>Creación básica de un sitio web</li>
-        <li>Diseño básico</li>
-        <li>Elementos JavaScript</li>
-    </ul>
-    <h3>Temario</h3>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ol>
-    <a href="https://cursos.databoosters.mx/">Página del curso</a>
+<body style="margin: 0; padding: 0;">
+	<headre>
+		<nav style="top: 0; width: 100%; height: 60px; position: fixed; background-color: rgba(161, 190, 161, 0.403);">
+			<ul style="display: flex; list-style: none; justify-content: space-around;">
+				<li><a href="#Title">Inicio</a></li>
+				<li><a href="#Skills">Habilidades</a></li>
+				<li><a href="#Learning">Información</a></li>
+			</ul>
+		</nav>
+	</headre>
+    <main style="padding-top: 65px;">
+		<h1 id="Title">Curso HTML-CSS-JS</h1>    
+	</main>
+	<article>
+		<p>Curso enfocado a principiantes del desarrollo web</p>
+		<a href="Plan_estudio.pdf" download="Cronograma">Descarga aca el temario detallado</a> <!-- El atributo download hace que el enlace descargue el archivo en lugar de abrirlo y el valor del atributo es el nombre con el que se guardará el archivo -->
+		<a href="Plan_estudio.pdf" upload="Cronograma" >Visualiza aca el temario detallado</a> <!-- El atributo upload o target="_blank" hace que el enlace se abra en una nueva pestaña del navegador, lo que es útil para visualizar el contenido sin salir de la página actual -->
+	</article>
+	<h3 id="Skills">Habilidades que se aprenderán</h3>
+	<ul>
+		<li>Creación básica de un sitio web</li>
+		<li>Diseño básico</li>
+		<li>Elementos JavaScript</li>
+	</ul>
+	<h3 id="Learning">Temario</h3>
+	<ol>
+		<li>HTML</li><a target="_blank" href="https://wikipedia.org/wiki/HTML"><img src="html.svg" alt="Logo HTML" width="300px" height="auto"></a>
+		<li>CSS</li><a target="_blank" href="https://wikipedia.org/wiki/CSS"><img src="css.svg" alt="Logo CSS" width="300px" height="auto"></a>
+		<li>JavaScript</li><a target="_blank" href="https://wikipedia.org/wiki/JavaScript"><img src="javascript.svg" alt="Logo JavaScript" width="300px" height="auto"></a>
+	</ol>
+	<a href="https://cursos.databoosters.mx/">Página del curso</a>
 </body>
 </html>
